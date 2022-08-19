@@ -36,10 +36,10 @@ header {
 }
 
 .pic {
-    width: 20rem;
+    width: 10rem;
     height: 30rem;
     position: absolute;
-    left: calc(50% - 10rem);
+    left: calc(50% - 6rem);
     margin-top: 4rem;
 }
 

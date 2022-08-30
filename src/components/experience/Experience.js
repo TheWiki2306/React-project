@@ -54,14 +54,16 @@ const Experience = () => {
 
                     </div>
                 </div>
-                <div className="experience__backend">
+
+
+                {<div className="experience__backend">
                     <h3>Back-end Development</h3>
                     <div className="experience__content">
                         <article className='experience__details'>
                             <HiBadgeCheck className='experience__details-icons' />
                             <div>
-                                <h4>Node JS</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h4>JAVA</h4>
+                                <small className='text-light'>Beginner</small>
                             </div>
                         </article>
 
@@ -69,13 +71,13 @@ const Experience = () => {
                         <article className='experience__details'>
                             <HiBadgeCheck className='experience__details-icons' />
                             <div>
-                                <h4>MongoDB</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h4>REACT NATIVE</h4>
+                                <small className='text-light'>Beginner</small>
                             </div>
                         </article>
 
 
-                        <article className='experience__details'>
+                        {/* <article className='experience__details'>
                             <HiBadgeCheck className='experience__details-icons' />
                             <div>
                                 <h4>MYSQL</h4>
@@ -97,11 +99,11 @@ const Experience = () => {
                             <HiBadgeCheck className='experience__details-icons' />
                             <div>
                                 <h4>JAVA</h4>
-                                <small className='text-light'>Experienced</small>
+                                <small className='text-light'>Begenner</small>
                             </div>
-                        </article>
+                        </article> */}
                     </div>
-                </div>
+                </div>}
 
             </div>
         </section>

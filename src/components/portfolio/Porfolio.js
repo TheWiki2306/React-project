@@ -1,8 +1,8 @@
 import React from 'react';
 import './portfolio.css';
-import img1 from '../../images/pic_1.jpg';
-import img2 from '../../images/pic_2.jpg';
-import img3 from '../../images/pic_3.jpg';
+import img1 from '../../images/m_soft.jpg';
+import img2 from '../../images/web_img.jpg';
+import img3 from '../../images/port_img.jpg';
 import img4 from '../../images/pic_4.jpg';
 import img5 from '../../images/pic_5.jpg';
 import img6 from '../../images/pic_6.jpg';
@@ -12,50 +12,50 @@ const data = [
     {
         id: 1,
         image: img1,
-        title: 'Figma Dashboard for Charts',
-        github: 'https://github.com/Wiki2306',
-        demo: 'https://dribbble.com/shots/18542859-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+        title: 'Microsoft Landing page (clone)',
+        github: 'https://github.com/TheWiki2306/microsoft-clone-website',
+        demo: 'https://msoftcloneweb.netlify.app/'
     },
 
     {
         id: 2,
         image: img2,
-        title: 'Charts template and infographich',
-        github: 'https://github.com/Wiki2306',
-        demo: 'https://dribbble.com/shots/18672147-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+        title: 'A Web Tutorial landing page',
+        github: 'https://github.com/TheWiki2306/flex-runs-web',
+        demo: 'https://webdev-app.netlify.app/',
     },
 
     {
         id: 3,
         image: img3,
-        title: 'Figma dashboard UI kit for data design',
-        github: 'https://github.com/Wiki2306',
-        demo: 'https://dribbble.com/shots/18672183-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+        title: 'My Portfolio',
+        github: 'https://github.com/TheWiki2306/React-project',
+        demo: 'https://wikiportfolio.netlify.app/',
     },
 
-    {
-        id: 4,
-        image: img4,
-        title: 'Crypto Curremcy & Financial Visualization',
-        github: 'https://github.com/Wiki2306',
-        demo: 'https://dribbble.com/shots/18672362-Orion-UI-kit-Charts-templates-infographics-in-Figma'
-    },
+    // {
+    //     id: 4,
+    //     image: img4,
+    //     title: 'Crypto Curremcy & Financial Visualization',
+    //     github: 'https://github.com/Wiki2306',
+    //     demo: 'https://dribbble.com/shots/18672362-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    // },
 
-    {
-        id: 5,
-        image: img5,
-        title: 'Chart template & infographics in Figma',
-        github: 'https://github.com/Wiki2306',
-        demo: 'https://dribbble.com/shots/18543094-Orion-UI-kit-Charts-templates-infographics-in-Figma'
-    },
+    // {
+    //     id: 5,
+    //     image: img5,
+    //     title: 'Chart template & infographics in Figma',
+    //     github: 'https://github.com/Wiki2306',
+    //     demo: 'https://dribbble.com/shots/18543094-Orion-UI-kit-Charts-templates-infographics-in-Figma'
+    // },
 
-    {
-        id: 6,
-        image: img6,
-        title: 'Figma daashboard UI kit for data design',
-        github: 'https://github.com/Wiki2306',
-        demo: 'https://dribbble.com/shots/18672453-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
-    },
+    // {
+    //     id: 6,
+    //     image: img6,
+    //     title: 'Figma daashboard UI kit for data design',
+    //     github: 'https://github.com/Wiki2306',
+    //     demo: 'https://dribbble.com/shots/18672453-Eclipse-Figma-dashboard-UI-kit-for-data-design-web-apps'
+    // },
 ]
 const Porfolio = () => {
     return (

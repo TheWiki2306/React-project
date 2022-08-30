@@ -23,12 +23,12 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>One year Experience</small>
+                            <small>Pending</small>
                         </article>
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>Clients</h5>
-                            <small>Smiling faces</small>
+                            <small>Pending</small>
                         </article>
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
@@ -37,7 +37,8 @@ const About = () => {
                         </article>
                     </div>
 
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis officia ipsum et quae, quaerat optio dolorem sed sint totam dolore, quia voluptatibus, soluta saepe quos eveniet voluptatum vitae ad eaque.</p>
+                    <p>A passionate entry-level front-end developer looking to fill a challenging internship position at your company,
+                        where I am able to leverage my knowledge of web development and general programming, and even furthermore gain more knowledge. My proficienfcy in computing, team play and problem solving skills show that i will be a great addition to your company</p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
             </div>

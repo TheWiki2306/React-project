@@ -77,15 +77,15 @@ const Experience = () => {
                         </article>
 
 
-                        {/* <article className='experience__details'>
+                        {<article className='experience__details'>
                             <HiBadgeCheck className='experience__details-icons' />
                             <div>
-                                <h4>MYSQL</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h4>NODE</h4>
+                                <small className='text-light'>Beginner</small>
                             </div>
                         </article>
 
-
+/*
                         <article className='experience__details'>
                             <HiBadgeCheck className='experience__details-icons' />
                             <div>

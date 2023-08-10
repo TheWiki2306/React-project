@@ -75,13 +75,13 @@ const Experience = () => {
                         </article>
 
 
-                        <article className='experience__details'>
+                        {/* <article className='experience__details'>
                             <HiBadgeCheck className='experience__details-icons' />
                             <div>
                                 <h4>REACT NATIVE</h4>
                                 <small className='text-light'>Beginner</small>
                             </div>
-                        </article>
+                        </article> */}
 
 
                         {<article className='experience__details'>

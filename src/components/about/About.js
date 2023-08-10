@@ -23,12 +23,13 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>Pending</small>
+                            <small>1 Year Experience</small>
                         </article>
                         <article className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>Clients</h5>
-                            <small>Pending</small>
+                            <small>Optimize Entertainment<br/></small>
+                            <small>Hoo-socials</small>
                         </article>
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
@@ -37,8 +38,13 @@ const About = () => {
                         </article>
                     </div>
 
-                    <p>A passionate entry-level front-end developer looking to fill a challenging internship position at your company,
-                        where I am able to leverage my knowledge of web development and general programming, and even furthermore gain more knowledge. My proficienfcy in computing, team play and problem solving skills show that i will be a great addition to your company</p>
+                    <p>I am Olusegun David Olusakin, a front end developer, 
+                        with proficiency in Html, CSS, Bootstrap, JavaScript, React, Typescript, Next.js, python. 
+                        I have a 1 year experience building applications and I am currently furthering my learning to becoming more skilled. 
+                        I have had the opportunity of working in a startup company; Hoo-socials.com (A company for Event organizers and promoters), 
+                        I worked on a project recently where I built a website for an event company named; Optimize Entertainment. 
+                        I Also worked on a project based on Machine Learning, where a Deep Learning algorithm was used to handle network vulnerabilities, and finally a few personal projects. I am a passionate individual and beyond passionate, I am an exciting communicator, a team player, critical thinker with problem solving skills. I also pay utmost attention to details,
+                         a fast learner with core competence, and lastly I am self motivated.</p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
             </div>

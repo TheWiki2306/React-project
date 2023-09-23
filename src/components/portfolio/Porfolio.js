@@ -38,7 +38,7 @@ const data = [
         image: img4,
         title: 'Mini E-commerce store',
         github: 'https://github.com/TheWiki2306/Cloud-store',
-        demo: ''
+        demo: 'https://storecloud.netlify.app'
         
     }
 

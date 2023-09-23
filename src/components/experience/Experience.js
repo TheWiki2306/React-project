@@ -24,7 +24,7 @@ const Experience = () => {
                             <HiBadgeCheck className='experience__details-icons' />
                             <div>
                                 <h4>CSS</h4>
-                                <small className='text-light'>Intermediate</small>
+                                <small className='text-light'>Experienced</small>
                             </div>
                         </article>
 
@@ -59,6 +59,22 @@ const Experience = () => {
                                 <small className='text-light'>Intermediate</small>
                             </div>
                         </article>
+
+                        <article className='experience__details'>
+                            <HiBadgeCheck className='experience__details-icons' />
+                            <div>
+                                <h4>NEXT</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
+                        </article>
+
+                        {/* <article className='experience__details'>
+                            <HiBadgeCheck className='experience__details-icons' />
+                            <div>
+                                <h4>PYTHON</h4>
+                                <small className='text-light'>Intermediate</small>
+                            </div>
+                        </article> */}
                     </div>
                 </div>
 
@@ -69,7 +85,7 @@ const Experience = () => {
                         <article className='experience__details'>
                             <HiBadgeCheck className='experience__details-icons' />
                             <div>
-                                <h4>JAVA</h4>
+                                <h4>PYTHON</h4>
                                 <small className='text-light'>Beginner</small>
                             </div>
                         </article>

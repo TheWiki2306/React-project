@@ -1,11 +1,11 @@
 import React from 'react';
 import './portfolio.css';
 import img1 from '../../images/m_soft.jpg';
-import img2 from '../../images/web_img.jpg';
+import img2 from '../../images/Logo.PNG';
 import img3 from '../../images/port_img.jpg';
-import img4 from '../../images/pic_4.jpg';
-import img5 from '../../images/pic_5.jpg';
-import img6 from '../../images/pic_6.jpg';
+import img4 from '../../images/Capture_img.PNG';
+// import img5 from '../../images/pic_5.jpg';
+// import img6 from '../../images/pic_6.jpg';
 
 
 const data = [
@@ -20,9 +20,9 @@ const data = [
     {
         id: 2,
         image: img2,
-        title: 'A Web Tutorial landing page',
-        github: 'https://github.com/TheWiki2306/flex-runs-web',
-        demo: 'https://webdev-app.netlify.app/',
+        title: 'Optimize Entertainment',
+        github: 'https://github.com/TheWiki2306/optimize-web',
+        demo: 'https://optimizeent.com',
     },
 
     {
@@ -32,6 +32,15 @@ const data = [
         github: 'https://github.com/TheWiki2306/React-project',
         demo: 'https://wikiportfolio.netlify.app/',
     },
+
+    {
+        id: 4,
+        image: img4,
+        title: 'Mini E-commerce store',
+        github: 'https://github.com/TheWiki2306/Cloud-store',
+        demo: ''
+        
+    }
 
     // {
     //     id: 4,

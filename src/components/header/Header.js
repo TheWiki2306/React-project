@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css';
 import CTA from './CTA';
-import Mine from '../../images/mine.jpg';
+import Mine from '../../images/olu-1.jpg';
 import HeaderSocials from './HeaderSocials';
 
 
@@ -11,14 +11,26 @@ const Header = () => {
             <div className="container header__container">
                 <h5>Hello i'm </h5>
                 <h1>Olusakin Olusegun</h1>
-                <h5 className='text-light'>Front-end developer</h5>
+                <h5 className='text-light'>Front End Engineer</h5>
                 <CTA />
 
                 <HeaderSocials />
-                <div className="pic">
-                    <img src={Mine} alt="frame" />
-                </div>
 
+                <div className="circle-container">
+                    <div className="circle one">
+                        <div className="tiny-circle"></div>
+                    </div>
+                    <div className="circle two">
+                        <div className="tiny-circle"></div>
+                    </div>
+                    <div className="circle three">
+                        <div className="tiny-circle"></div>
+                    </div>
+                    <div className="circle four">
+                        <div className="tiny-circle"></div>
+                    </div>
+                </div>
+                
                 <a href="#contact" className='scroll__down'>Scroll Down</a>
             </div>
         </header>

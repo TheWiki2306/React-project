@@ -28,6 +28,13 @@ header {
     bottom: 3rem;
 }
 
+.header__socials::before{
+    content: '';
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
 .header__socials::after {
     content: '';
     width: 1px;
@@ -35,16 +42,94 @@ header {
     background: var(--color-primary);
 }
 
-.pic {
-    width: 10rem;
-    height: 30rem;
-    position: absolute;
-    left: calc(50% - 6rem);
-    margin-top: 4rem;
+.circle-container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    border-radius: 50%;
+    animation: rotateContainer 10s linear infinite;
 }
 
-.pic img {
-    border-radius: 12rem 12rem 0 0;
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    animation: rotateCircle 4s linear infinite;
+}
+
+.one {
+    width: 40px;
+    height: 40px;
+    background-color: var(--color-light);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.two {
+    width: 50px;
+    height: 50px;
+    background-color: var(--color-primary-variant);
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.three {
+    width: 60px;
+    height: 60px;
+    background-color: var(--color-primary);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.four {
+    width: 70px;
+    height: 70px;
+    background-color: var(--color-bg-variant);
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.tiny-circle {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: var(--color-bg);
+    top: -10px; 
+    left: 50%;
+    transform: translateX(-50%);
+    animation: rotateTinyCircle 2s linear infinite;
+}
+
+@keyframes rotateContainer {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateCircle {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateTinyCircle {
+    0% {
+        transform: rotate(0deg) translateY(20px); 
+    }
+    100% {
+        transform: rotate(360deg) translateY(20px);
+    }
 }
 
 .scroll__down {

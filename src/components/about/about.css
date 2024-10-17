@@ -1,3 +1,15 @@
+/* Animation */
+.about__section {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 2s ease-in-out;
+}
+  
+.about__section.animate {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
@@ -27,7 +39,7 @@
 
 .about__cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 
@@ -57,13 +69,14 @@
 }
 
 .about__card small {
-    font-size: 0.55rem;
+    font-size: 0.65rem;
     color: var(--color-light);
 }
 
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    font-size: 14px;
 }
 
 

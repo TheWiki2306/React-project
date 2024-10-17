@@ -1,15 +1,18 @@
 import React from 'react';
 import './about.css';
-import Mine from '../../images/mine.jpg'
+import Mine from '../../images/olu-1.jpg'
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
+import { useInView } from 'react-intersection-observer';
+
 
 const About = () => {
+    const { ref: sectionRef1, inView: inView1 } = useInView({ triggerOnce: false });
+
     return (
-        <section id='about'>
-            <h5>Get to know</h5>
-            <h2>About me</h2>
+        <section id='about' className={`about__section ${inView1 ? 'animate' : ''}`} ref={sectionRef1}>
+            <h2>About Me</h2>
 
             <div className="container about__container">
                 <div className="about__me">
@@ -23,28 +26,32 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>1 Year Experience</small>
+                            <small>Three years of professional experience spanning the finance, entertainment, and fashion industries.</small>
                         </article>
-                        <article className='about__card'>
+                        {/* <article className='about__card'>
                             <FiUsers className='about__icon' />
                             <h5>Clients</h5>
                             <small>Optimize Entertainment<br/></small>
                             <small>Hoo-socials</small>
-                        </article>
+                            
+                        </article>*/}
                         <article className='about__card'>
                             <VscFolderLibrary className='about__icon' />
-                            <h5>Projects</h5>
-                            <small>3 completed projects</small>
-                        </article>
+                            <h5>Professional Skills</h5>
+                            <small>- Proficient at finding solutions to complex problems</small><br/>
+                            <small>- Effective communicator</small><br/>
+                            <small>- Collaborative team member</small><br/>
+                            <small>- Commitment to work</small>
+                        </article> 
                     </div>
 
-                    <p>I am Olusegun David Olusakin, a front end developer, 
-                        with proficiency in Html, CSS, Bootstrap, JavaScript, React, Typescript, Next.js, python. 
-                        I have a 1 year experience building applications and I am currently furthering my learning to becoming more skilled. 
-                        I have had the opportunity of working in a startup company; Hoo-socials.com (A company for Event organizers and promoters), 
-                        I worked on a project recently where I built a website for an event company named; Optimize Entertainment. 
-                        I Also worked on a project based on Machine Learning, where a Deep Learning algorithm was used to handle network vulnerabilities, and finally a few personal projects. I am a passionate individual and beyond passionate, I am an exciting communicator, a team player, critical thinker with problem solving skills. I also pay utmost attention to details,
-                         a fast learner with core competence, and lastly I am self motivated.</p>
+                    <p>Hi, I'm Olusegun, a skilled Frontend Engineer with extensive experience. In addition to my frontend expertise, I have a background in backend development, 
+                        working with technologies such as Node.js, PhP. 
+                        I have also delved into mobile development, utilizing the React Native framework.
+                        I'm passionate about building intuitive and visually appealing web applications, leveraging tools like React, Vue.js, Node.js. 
+                        With a solid track record of delivering successful projects, 
+                        I'm excited to bring my expertise to innovative initiatives.
+                        Let's connect and collaborate to create outstanding digital experiences!</p>
                     <a href="#contact" className='btn btn-primary'>Let's Talk</a>
                 </div>
             </div>

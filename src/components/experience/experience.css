@@ -1,3 +1,15 @@
+/* Animation */
+.experience__section {
+    opacity: 0;
+    transform: translateX(-100px);
+    transition: all 2s ease-in-out;
+}
+  
+.experience__section.animate {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
 .experience__container {
     display: grid;
     grid-template-columns: 1fr 1fr;

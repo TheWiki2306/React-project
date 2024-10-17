@@ -25,7 +25,6 @@ const Contact = () => {
 
     return (
         <section id='contact'>
-            <h5>Get in touch</h5>
             <h2>Contact</h2>
 
             <div className="container contact__container">
@@ -38,17 +37,10 @@ const Contact = () => {
                     </article>
 
                     <article className='contact__option'>
-                        <ImTwitter className='contact__option-icon' />
-                        <h4>Twitter</h4>
-                        <h5>theAfroWiki</h5>
-                        <a href="twitter.com" target='_blank'>Send a DM</a>
-                    </article>
-
-                    <article className='contact__option'>
                         <BsWhatsapp className='contact__option-icon' />
                         <h4>WhatsApp</h4>
                         <h5>Phone number</h5>
-                        <a href="https://api.whatsapp.com/send?phone=09080797651" target='_blank'>Send a message</a>
+                        <a href="https://api.whatsapp.com/send?phone=2349080797651" target='_blank'>Send a message</a>
                     </article>
                 </div>
 

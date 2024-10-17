@@ -1,5 +1,5 @@
 import React from 'react'
-import CV from '../../images/cv.pdf';
+import CV from '../../images/Olusegun OLUSAKIN - Updated CV 2024 (4).pdf';
 
 const CTA = () => {
     return (

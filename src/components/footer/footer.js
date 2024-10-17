@@ -8,7 +8,7 @@ const Footer = () => {
     return (
 
         <footer>
-            <a href="#" className='footer__logo'>The Wiki</a>
+            <a href="#" className='footer__logo'>Olusakin Olusegun</a>
 
             <ul className="permalinks">
                 <li><a href="#">Home</a></li>
@@ -25,7 +25,7 @@ const Footer = () => {
             </div>
 
             <div className="footer__copyright">
-                <small> &copy;  The Wiki, 2022 pub.</small>
+                <small> &copy;  Olusakin Olusegun, 2022 pub.</small>
             </div>
         </footer>
     )

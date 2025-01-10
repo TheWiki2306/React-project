@@ -26,7 +26,7 @@ const About = () => {
                         <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>Three years of professional experience spanning the finance, entertainment, and fashion industries.</small>
+                            <small>Three years of professional experience spanning the finance, entertainment, education, fashion industries.</small>
                         </article>
                         {/* <article className='about__card'>
                             <FiUsers className='about__icon' />
@@ -45,10 +45,10 @@ const About = () => {
                         </article> 
                     </div>
 
-                    <p>Hi, I'm Olusegun, a skilled Frontend Engineer with extensive experience. In addition to my frontend expertise, I have a background in backend development, 
+                    <p>Hi, I am Olusegun, a skilled Frontend Engineer with extensive experience. In addition to that, I have a background in backend development, 
                         working with technologies such as Node.js, PhP. 
                         I have also delved into mobile development, utilizing the React Native framework.
-                        I'm passionate about building intuitive and visually appealing web applications, leveraging tools like React, Vue.js, Node.js. 
+                        I'm passionate about building intuitive and visually appealing web and mobile applications, leveraging tools like React, React Native Vue.js, Node.js. 
                         With a solid track record of delivering successful projects, 
                         I'm excited to bring my expertise to innovative initiatives.
                         Let's connect and collaborate to create outstanding digital experiences!</p>
